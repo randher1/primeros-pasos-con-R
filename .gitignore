@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata 
+
+# Archivos LaTeX generados
+*/Presentacion/Informes/*/Primeros pasos con R.aux
+*/Presentacion/Informes/*/Primeros pasos con R.bbl
+*/Presentacion/Informes/*/Primeros pasos con R.blg
+*/Presentacion/Informes/*/Primeros pasos con R.log
+*/Presentacion/Informes/*/Primeros pasos con R.out
+*/Presentacion/Informes/*/Primeros pasos con R.synctex.gz
+*/Presentacion/Informes/*/Primeros pasos con R.toc
+
