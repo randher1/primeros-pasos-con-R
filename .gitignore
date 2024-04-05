@@ -11,4 +11,6 @@
 /Presentacion/Informes/*/Primeros pasos con R.out
 /Presentacion/Informes/*/Primeros pasos con R.synctex.gz
 /Presentacion/Informes/*/Primeros pasos con R.toc
-ignorar.sh
+estructuraCarpetas.py
+
+genera_data.py
