@@ -1,4 +1,4 @@
-# Primeros pasos con R en el analísis de datos.
+# Primeros pasos con R en el análisis de datos.
 
 
 <div style="text-align: center;"> 
