@@ -42,6 +42,27 @@ citecolor = black ]{hyperref}
     \href{mailto:randolfherrerarincon@gmail.com}{randolfherrerarincon@gmail.com}   
 }
 
+
+\lstdefinestyle{Rstyle}{
+	language=R,
+	basicstyle=\small\ttfamily,
+	keywordstyle=\color{blue},
+	stringstyle=\color{red},
+	commentstyle=\color{green},
+	showstringspaces=false,
+	breaklines=true,
+	frame=none, % Cambiado de frame=tb a frame=none
+	backgroundcolor=\color{gray!10},
+	captionpos=b,
+	tabsize=2,
+	rulecolor=\color{black},
+	morekeywords={data.frame},
+}
+
+% Cambiar "Listing" por "Fragmento de código" en los captions
+\renewcommand\lstlistingname{Fragmento de código}
+
+
 \begin{document}
 \maketitle
 \tableofcontents
@@ -50,8 +71,10 @@ citecolor = black ]{hyperref}
 \newpage
 \section{Carga de archivos}
 \subsection{Archivos .csv}
-
-
+Desde el paquete base de r encontramos la función $read.csv()$ \citep{baseR}
+\begin{lstlisting}[style=Rstyle, caption={Lectura de datos en R}, label=lst:readcsv]
+	Data <- read.csv("data.csv")
+\end{lstlisting}
 \newpage
 \bibliography{biblio}
 \bibliographystyle{apalike}     
