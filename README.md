@@ -19,9 +19,9 @@
 
 En este proyecto contará con una serie de 10 vídeos que abarcaran la parte fundamental del análisis de datos. Dichos vídeos serán los siguientes:
 
-  
 
-1. Cargue de archivos en R (csv, json, xls, etc)
+
+1. [📂🔍 ¡Explorando Datos! Cargando Archivos en R - 01 📊🔌](https://www.youtube.com/watch?v=beltQGIiLmc&t=149s)
 
 2. Manipulación de datos en R: Transformando y limpiando tu conjunto de datos.
 
