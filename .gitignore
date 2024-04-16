@@ -12,5 +12,5 @@
 /Presentacion/Informes/*/Primeros pasos con R.synctex.gz
 /Presentacion/Informes/*/Primeros pasos con R.toc
 estructuraCarpetas.py
-
+*.log
 genera_data.py
