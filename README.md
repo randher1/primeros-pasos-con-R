@@ -23,7 +23,7 @@ En este proyecto contará con una serie de 10 vídeos que abarcaran la parte fun
 
 1. [📂🔍 ¡Explorando Datos! Cargando Archivos en R - 01 📊🔌](https://www.youtube.com/watch?v=beltQGIiLmc&t=149s)
 
-2. Manipulación de datos en R: Transformando y limpiando tu conjunto de datos.
+2. [📊 Manipulación de datos en R: Transformando y limpiando tu conjunto de datos 🧹 - 02](https://www.youtube.com/watch?v=D8lY3euBz-8)
 
 3. Exploración de datos en R: Visualización y resumen estadístico.
 
