@@ -1,0 +1,48 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[left=2.54cm, right=2.54cm, top=2.54cm, bottom=2.54cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{booktabs}
+\usepackage{svg}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{changepage}
+\usepackage{float}
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage[sc]{mathpazo}
+\usepackage{multicol}
+\usepackage{titling}
+\usepackage{titlesec}
+\usepackage{listings}
+\usepackage{ragged2e} % Añade el paquete ragged2e
+
+\usepackage{Sweave}
+\begin{document}
+\input{informe-concordance}
+
+\begin{table}[!h]
+
+\caption{Descripción de variables}
+\centering
+\begin{tabular}[t]{lll}
+\toprule
+Variable & Tipo\_de\_variable & Ejemplo\\
+\midrule
+fecha & chr & chr  "2018-01-01" "2018-01-02" "2018-01-03" "2018-01-04" ...\\
+empleado & chr & chr  "Luis" "Laura" "Sofía" "Carlos" ...\\
+producto & chr & chr  "Producto B" "Producto B" "Producto A" "Producto C" ...\\
+cantidad & num & num  86 17 68 48 NA 25 21 65 63 89 ...\\
+precio\_unitario & num & num  42.8 67.7 52 27.1 NA ...\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\end{document}
