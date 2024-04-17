@@ -1,6 +1,6 @@
 # Cargar bibliotecas necesarias
 require(pacman)
-pacman::p_load(dplyr, kableExtra, knitr)
+pacman::p_load(dplyr, kableExtra, knitr,stargazer)
 
 # Limpiar el entorno y configurar opciones
 rm(list = ls())

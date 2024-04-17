@@ -75,6 +75,78 @@ Desde el paquete base de r encontramos la función $read.csv()$ \citep{baseR}
 \begin{lstlisting}[style=Rstyle, caption={Lectura de datos en R}, label=lst:readcsv]
 	Data <- read.csv("data.csv")
 \end{lstlisting}
+
+
+
+\begin{table}[!htbp] \centering 
+	\caption{Comparación de modelos} 
+	\label{} 
+	\begin{tabular}{@{\extracolsep{5pt}}lccc} 
+		\\[-1.8ex]\hline 
+		\hline \\[-1.8ex] 
+		& \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+		\cline{2-4} 
+		\\[-1.8ex] & \multicolumn{3}{c}{wage} \\ 
+		\\[-1.8ex] & (1) & (2) & (3)\\ 
+		\hline \\[-1.8ex] 
+		Constant & 6.23$^{***}$ & 4.50$^{***}$ & 5.89$^{**}$ \\ 
+		& (0.80) & (1.03) & (2.83) \\ 
+		& & & \\ 
+		educ & 0.54$^{***}$ & 0.55$^{***}$ & 0.23 \\ 
+		& (0.07) & (0.07) & (0.41) \\ 
+		& & & \\ 
+		I(educ$\hat{\mkern6mu}$2) &  &  & 0.01 \\ 
+		&  &  & (0.02) \\ 
+		& & & \\ 
+		exper &  & 0.20$^{**}$ & 0.34 \\ 
+		&  & (0.08) & (0.44) \\ 
+		& & & \\ 
+		I(exper$\hat{\mkern6mu}$2) &  &  & $-$0.01 \\ 
+		&  &  & (0.03) \\ 
+		& & & \\ 
+		\hline \\[-1.8ex] 
+		Observations & 100 & 100 & 100 \\ 
+		\hline 
+		\hline \\[-1.8ex] 
+		Nota: & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+	\end{tabular} 
+\end{table}  
+
+
+\begin{table}[!htbp] \centering 
+	\caption{Comparación de modelos} 
+	\label{} 
+	\begin{tabular}{@{\extracolsep{5pt}}lccc} 
+		\\[-1.8ex]\hline 
+		\hline \\[-1.8ex] 
+		& \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+		\cline{2-4} 
+		\\[-1.8ex] & \multicolumn{3}{c}{wage} \\ 
+		\\[-1.8ex] & (1) & (2) & (3)\\ 
+		\hline \\[-1.8ex] 
+		Constant & 6.23$^{***}$ & 4.50$^{***}$ & 5.89$^{**}$ \\ 
+		& (0.80) & (1.03) & (2.83) \\ 
+		& & & \\ 
+		educ & 0.54$^{***}$ & 0.55$^{***}$ & 0.23 \\ 
+		& (0.07) & (0.07) & (0.41) \\ 
+		& & & \\ 
+		I(educ$\hat{\mkern6mu}$2) &  &  & 0.01 \\ 
+		&  &  & (0.02) \\ 
+		& & & \\ 
+		exper &  & 0.20$^{**}$ & 0.34 \\ 
+		&  & (0.08) & (0.44) \\ 
+		& & & \\ 
+		I(exper$\hat{\mkern6mu}$2) &  &  & $-$0.01 \\ 
+		&  &  & (0.03) \\ 
+		& & & \\ 
+		\hline \\[-1.8ex] 
+		Observations & 100 & 100 & 100 \\ 
+		\hline 
+		\hline \\[-1.8ex] 
+		\textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+	\end{tabular} 
+\end{table} 
+
 \newpage
 \bibliography{biblio}
 \bibliographystyle{apalike}     
