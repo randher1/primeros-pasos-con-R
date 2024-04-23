@@ -50,10 +50,11 @@ summary(datos)
 
 # Seleccionar columnas relevantes y limpiar datos
 datos_seleccionados <- datos[, c("fecha", "empleado", "producto", "cantidad", "precio_unitario")]
+str(datos_seleccionados)
 datos_limpios <- na.omit(datos_seleccionados)
 
 # convertir el tipo de datos de fecha de caracter a datatime
-datos_limpios$fecha <- as.Date(datos_limpios$fecha, format = "%dd/%mm/%YY")
+datos_limpios$fecha <- as.Date(datos_limpios$fecha, format = "%d-%m-%Y")
 
 # convertir las cantidades de numeros a enteros
 datos_limpios$cantidad <- as.integer(datos_limpios$cantidad)

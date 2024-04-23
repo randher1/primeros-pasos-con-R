@@ -25,23 +25,8 @@ En este proyecto contará con una serie de 10 vídeos que abarcaran la parte fun
 
 2. [📊 Manipulación de datos en R: Transformando y limpiando tu conjunto de datos 🧹 - 02](https://www.youtube.com/watch?v=D8lY3euBz-8)
 
-3. Exploración de datos en R: Visualización y resumen estadístico.
+3. [Dominando la Magia de los Datos con R y ggplot2 📊✨ - 03](https://youtu.be/5EWWG5DvO98)
 
-4. Análisis exploratorio en R: Identificando patrones y tendencias.
-
-5. Modelado predictivo en R: Introducción a la regresión lineal.
-
-6. Modelado predictivo avanzado en R: Regresión logística y árboles de decisión.
-
-7. Análisis de series temporales en R: Modelando y prediciendo tendencias.
-
-8. Aprendizaje automático en R: Introducción a la clasificación.
-
-9. Aprendizaje profundo en R: Redes neuronales y modelos de aprendizaje profundo.
-
-10. Visualización avanzada en R: Creando gráficos interactivos y personalizados.
-
-  
 
 ---
 

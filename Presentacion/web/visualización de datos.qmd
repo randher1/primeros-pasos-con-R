@@ -1,0 +1,95 @@
+---
+title: "Vizualización de Datos"
+description: "Está presentaión va dirigida a personas qie trabagen con Data Science, no es un curso de introducción a R"
+author: 
+    name: "Randolf Herrera"
+    url: "https://github.com/randher1"
+    affiliation: "RANDHER DATA SCIENCE"
+    affiliation-url: "https://tinyurl.com/2a9sgb6o"
+format:
+  revealjs:
+    incremental: true
+    logo: banner.png
+    footer: "Randher Data Science"
+    default-image-extension: svg
+editor: visual
+bibliography: "biblio.bib"
+csl: "apa.csl"
+lang: "Es-es"
+engine: knitr
+css: "style.css"
+---
+## GGPLOT2 {.center}
+
+
+## GGPLOT2 {.center}
+:::: {.columns}
+
+::: {.column width="40%"}
+![](ggplot2.png){width=300}
+:::
+
+::: {.column width="60%"}
+**ggplot2** es un sistema para crear gráficos declarativamente, basado en la gramática de gráficos (Grammar of Graphics) desarrollada por [@ggplo22024]. La gramática de gráficos descompone las visualizaciones en componentes básicos:
+:::
+
+::::
+
+## GGPLOT2 {.center}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](ggplot2.png){width=300}
+:::
+
+::: {.column width="60%" .incremental}
+- Datos
+- Geometrías
+- (puntos, líneas, barras, etc.)
+:::
+
+::::
+
+
+
+## {auto-animate=true auto-animate-easing="ease-in-out"}
+
+::: {.r-hstack}
+::: {data-id="box1" auto-animate-delay="0" style="background: #2780e3; width: 250px; height: 200px; margin: 10px; display: flex; justify-content: center; align-items: center; color: white;"}
+Datos
+:::
+
+::: {data-id="box2" auto-animate-delay="0.1" style="background: #3fb618; width: 250px; height: 200px; margin: 10px; display: flex; justify-content: center; align-items: center; color: white;"}
+Geometrías
+:::
+
+::: {data-id="box3" auto-animate-delay="0.2" style="background: #e83e8c; width: 250px; height: 200px; margin: 10px; display: flex; justify-content: center; align-items: center; color: white;"}
+Puntos, lineas
+:::
+
+::: {data-id="box4" auto-animate-delay="0.2" style="background: #DBC35E; width: 250px; height: 200px; margin: 10px; display: flex; justify-content: center; align-items: center; color: white;"}
+Textos
+:::
+:::
+Ejemplo de como se comporta ggplot2 al momento de la realización del gráficos
+
+## {auto-animate=true auto-animate-easing="ease-in-out"}
+
+::: {.r-stack}
+::: {data-id="box1" style="background: #2780e3; width: 350px; height: 350px; border-radius: 200px;"}
+Resultado final 
+:::
+
+::: {data-id="box2" style="background: #3fb618; width: 250px; height: 250px; border-radius: 200px;"}
+:::
+
+::: {data-id="box3" style="background: #e83e8c; width: 150px; height: 150px; border-radius: 200px;"}
+:::
+::: {data-id="box4" style="background: #DBC35E; width: 50px; height: 50px; border-radius: 200px;"}
+:::
+:::
+
+## Referencias
+::: {#refs}
+:::
