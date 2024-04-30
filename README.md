@@ -27,6 +27,9 @@ En este proyecto contará con una serie de 10 vídeos que abarcaran la parte fun
 
 3. [Dominando la Magia de los Datos con R y ggplot2 📊✨ - 03](https://youtu.be/5EWWG5DvO98)
 
+4. [🌳 Aprende a Crear Árboles de Decisión en R: ¡Domina el Análisis de Datos! 📊 - 04 
+](https://youtu.be/aLG1FfhSOrA)
+
 
 ---
 
