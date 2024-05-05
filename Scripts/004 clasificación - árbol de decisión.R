@@ -35,7 +35,7 @@ fancyRpartPlot(arbol)
 
 # Crear un archivo SVG para guardar el gráfico con resolución Full HD
 svg_filename <- "Resultados/img/arbol_decision.svg"
-svg(file = svg_filename, width = 1920 / 72, height = 1080 / 72)
+svg(file = svg_filename)
 
 # Generar el gráfico con fancyRpartPlot()
 fancyRpartPlot(arbol)
@@ -43,7 +43,8 @@ fancyRpartPlot(arbol)
 # Cerrar el dispositivo gráfico para guardar el archivo SVG
 dev.off()
 
-
+plot(arbol, margin = 0.1, compress = TRUE)
+text(arbol, cex = 0.6)
 
 pred_arbol <- predict(arbol, type = "class")
 

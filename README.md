@@ -34,9 +34,30 @@ En este proyecto contará con una serie de 10 vídeos que abarcaran la parte fun
 ---
 
 Luego de crear tu proyecto de R, te propongo el siguiente la siguiente estructura de carpetas para análisis de datos.
+### Libros y recursos web
+---
+
+1.   [Introducción a R (PDF)](https://cran.r-project.org/doc/contrib/R-intro-1.1.0-espanol.1.pdf)
+2.   [R para Principiantes (PDF)](https://cran.r-project.org/doc/contrib/rdebuts_es.pdf)
+3.   [Gráficos Estadísticos con R (PDF)](https://cran.r-project.org/doc/contrib/grafi3.pdf)
+4.   [Introducción al uso y programación del sistema estadístico R (PDF)](https://cran.r-project.org/doc/contrib/curso-R.Diaz-Uriarte.pdf)
+5.   [Métodos Estadísticos con R y R Commander (PDF)](https://cran.r-project.org/doc/contrib/Saez-Castillo-RRCmdrv21.pdf)
+6.   [Generacion automática de reportes con R y LaTeX (PDF)](https://cran.r-project.org/doc/contrib/Rivera-Tutorial_Sweave.pdf)
+7.   [Optimización Matemática con R: Volúmen I (PDF)](https://cran.r-project.org/doc/contrib/Optimizacion_Matematica_con_R_Volumen_I.pdf)
+8.   [Aprender R: iniciación y perfeccionamiento (Web)](https://myrbooksp.netlify.app/)
+9.   [AnalizaR Datos Políticos (Web)](https://arcruz0.github.io/libroadp/)
+10.  [Introducción a R para el análisis de datos en Ciencias Sociales (PDF)](https://www.researchgate.net/profile/Eduardo-Bologna/publication/313970258_Introduccion_a_R_para_el_analisis_de_datos_en_Ciencias_Sociales/links/58b05f6645851503be97de2f/Introduccion-a-R-para-el-analisis-de-datos-en-Ciencias-Sociales.pdf)
+11.  [Introducción a estadística con R (Web)](https://bookdown.org/matiasandina/R-intro/)
+12.  [Laboratorio de Estadística y Probabilidad con R (PDF)](https://www.dropbox.com/s/zgiyuwsxaitfsw6/LIBROENPDF.pdf?e=1)
+13.  [R para Ciencia de Datos (Web)](https://es.r4ds.hadley.nz/)
+14.  [Análisis espacial con R (PDF)](https://eujournal.org/files/journals/1/books/JeanFrancoisMas.pdf)
+
+
+
 
 
 ### Creción de las carpetas
+---
 1. Descarga en archivo estructuraCarpetas.py
 2. Abre una terminal ta sea en Windows, Mac Os o Linux y corre lo siguiente.
 
