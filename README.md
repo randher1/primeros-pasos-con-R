@@ -30,6 +30,8 @@ En este proyecto contará con una serie de 10 vídeos que abarcaran la parte fun
 4. [🌳 Aprende a Crear Árboles de Decisión en R: ¡Domina el Análisis de Datos! 📊 - 04 
 ](https://youtu.be/aLG1FfhSOrA)
 
+5. [📊 Análisis Econométrico de Regresión Lineal 📈 - 05.1](https://youtu.be/6ucAgBr9xiM)
+
 
 ---
 
