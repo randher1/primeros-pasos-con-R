@@ -31,6 +31,7 @@ En este proyecto contará con una serie de 10 vídeos que abarcaran la parte fun
 ](https://youtu.be/aLG1FfhSOrA)
 
 5. [📊 Análisis Econométrico de Regresión Lineal 📈 - 05.1](https://youtu.be/6ucAgBr9xiM)
+6. [ Regresión lineal en R 📊 - 05.2 | ¿Heterocedadticidad? ¿Multicolinealidad? ](https://www.youtube.com/watch?v=yMYGLPeUHYg)
 
 
 ---

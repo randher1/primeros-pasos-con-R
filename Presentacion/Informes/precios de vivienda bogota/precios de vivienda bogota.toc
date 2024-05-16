@@ -2,3 +2,5 @@
 \contentsline {section}{\numberline {1}Obtención de datos}{2}{section.1}%
 \contentsline {section}{\numberline {2}Estimación}{2}{section.2}%
 \contentsline {section}{\numberline {3}Cumplimiento de los supuestos econométricos y medidas a corregir}{2}{section.3}%
+\contentsline {section}{\numberline {4}Presentación del modelo}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Comparación de modelos}{3}{subsection.4.1}%

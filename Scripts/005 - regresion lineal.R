@@ -91,7 +91,15 @@ chart.Correlation(datos[c(9,3,4,5)])
 modelo1 <- lm(log(valor_numerico) ~ Banos + log(Area)+ Habitaciones, 
               data = datos, na.action = na.omit)
 
+
+
+
+
 summary(modelo1)
+
+
+
+
 
 jarque.bera.test(modelo1$residuals)
 
@@ -183,7 +191,9 @@ num_outliers_final <-length(outlirs1_mod$out)
 # Imprimir el número de valores atípicos
 cat("El número de valores atípicos (outliers) en el modelo es de:", num_outliers_final)
 
-ols_plot_resid_stud(modelo1_final)+
+
+
+dis <-ols_plot_resid_stud(modelo1_final)+
   labs(title="Residuos estudentizados",
        x="Observación",
        y="Residuos estudentizados eliminados",
@@ -195,3 +205,28 @@ ols_plot_resid_stud(modelo1_final)+
   guides(color = guide_legend(title = "Observación"))
 
 
+#Función para guardar graficos de diferentes ext
+
+guardar_grafico <- function(grafico) {
+  formatos <- c("svg", "pdf")  # Lista de formatos de archivo
+  
+  nombre_archivo_base <- deparse(substitute(grafico))  # Obtener el nombre del gráfico
+  
+  for (formato in formatos) {
+    nombre_archivo <- paste0("Resultados/img/", nombre_archivo_base, ".", formato)  # Nombre del archivo con extensión correspondiente
+    dispositivo <- switch(formato,
+                          "svg" = svg,
+                          "pdf" = pdf)
+    
+    # Abrir dispositivo de salida
+    dispositivo(nombre_archivo, width = 11, height = 9)
+    
+    # Imprimir el gráfico
+    print(grafico)  # Asegúrate de imprimir el gráfico
+    
+    # Cerrar dispositivo de salida
+    dev.off()
+  }
+}
+
+guardar_grafico(dis)
